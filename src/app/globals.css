@@ -105,3 +105,33 @@ a {
     color-scheme: dark;
   }
 }
+
+button {
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+table {
+  color: #fff; /* define a cor do texto como branco */
+  background-color: #333; /* define o fundo da tabela como preto */
+  border-collapse: collapse; /* remove as bordas internas entre as células */
+}
+
+/* estilizando as células e cabeçalhos da tabela */
+td, th {
+  border: 1px solid #fff; /* define a cor da borda como branco */
+  padding: 10px;
+}
+
+main {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+ol li {
+  line-height: 2rem;
+}

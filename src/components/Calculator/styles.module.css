@@ -1,0 +1,21 @@
+.container {
+  max-width: 400px;
+}
+
+#panel {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  max-height: 200px;
+  resize: none;
+}
+
+#controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#calculateButton {
+  
+}
