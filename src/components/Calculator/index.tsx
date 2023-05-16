@@ -26,7 +26,7 @@ export const Calculator = () => {
     calculatorWithoutClasses.calculate(panel, setResult)
   }
 
-  function cleanPanel() { panelRef.current!.value = ""; setResult({}) }
+  function cleanPanel() { panelRef.current!.value = ""; setResult({}); calculatorWithClasses.clean(); calculatorWithoutClasses.clean() }
 
   return (
     <div className={styles.container}>

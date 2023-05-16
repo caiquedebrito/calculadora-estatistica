@@ -33,6 +33,11 @@ export class CalculatorWithClasses {
     })
   }
 
+  clean() {
+    this.classesArray = []
+    this.frequencyCount = 0
+  }
+
   private calculateVarianca(media: number) {
     return this.classesArray.reduce((previousValue, currentValue) => previousValue + Math.pow(((currentValue.limiteInferior + currentValue.limiteSuperior) / 2) - media, 2)*currentValue.frequencia, 0) / this.frequencyCount
   }

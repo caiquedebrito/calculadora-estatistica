@@ -43,6 +43,10 @@ class CalculatorWithoutClasses {
     })
   }
 
+  clean() {
+    this.numbers = []
+  }
+
   private calculateAmplitute(rol: number[]) {
     return rol[rol.length - 1] - rol[0]
   }
